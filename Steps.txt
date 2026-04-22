@@ -1,0 +1,7 @@
+py -3.10 -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+// ensure that IP webcam server's IP and CAMERA_URL = "http://xx.xxx.xxx.xxx:8080/video" matches in app.py file
+
+streamlit run pipeline/app.py
